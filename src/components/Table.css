@@ -1,0 +1,74 @@
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    background-color:rgb(238, 238, 238) ;
+    width: 100%;
+    height: 150px;
+    font-size: 65px;
+    font-weight: 500;
+}
+#bstar{
+    font-size: 15px;
+    color:white ;
+    background-color: rgb(57, 123, 247);
+    border: hidden;
+    padding: 10px; 
+    margin: 15px 0px 2px 0px;   
+}
+#bname{
+    font-size:15px ;
+    color:white ;
+    background-color: rgb(109, 109, 109);
+    border: hidden;
+    padding:10px ;
+    margin: 15px 0px 2px 0px;
+}
+#bpop{
+    font-size:15px ;
+    color:white ;
+    background-color: rgb(47, 151, 177);
+    border: hidden;
+    padding: 10px;
+    margin: 15px 0px 2px 0px;
+}
+table{
+    border:2px solid rgb(206, 204, 204);
+    background-color: white;
+    font-weight: 400;
+    width:60%;
+    height: 500px;
+    border-collapse:collapse;
+}
+td{
+    border:2px solid rgb(206, 204, 204);
+    font-size: 26px;
+    padding: 10px 0px;
+    width: 140px;
+    height: fit-content;
+    vertical-align: top;  
+}
+th{
+    border:2px solid rgb(206, 204, 204);
+    font-size: 26px;
+    font-weight:bolder;
+    padding: 13px 0px;
+    width: 140px;
+    height: fit-content;
+
+}
+#delete{
+    background-color: rgb(241, 56, 56);
+    color: white;
+    padding: 8px 10px;
+    border: hidden;
+    border-radius: 5px;
+}
+img{
+    height: 220px;
+    width: 150px;
+    margin: 0px;
+}
